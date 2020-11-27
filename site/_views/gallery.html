@@ -96,7 +96,7 @@
                 {
                   "items":[{
                     "type": "image",
-                    "url": "{{ setItem.url }}",
+                    "url": "{{ item.data['gallery-image'].url | escape }}",
                     "caption": ""
                   }],
                   "group": "Recent Work Gallery"
