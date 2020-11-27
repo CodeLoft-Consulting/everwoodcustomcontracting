@@ -103,7 +103,7 @@
         {%- if collection.length > 0 -%}<div role="list" class="collection-list w-dyn-items">
           {%- for item in collection -%}<div role="listitem" class="w-dyn-item">
             <a href="#" class="w-inline-block w-lightbox"><img loading="lazy" src="{{ item.data['gallery-image'].url | escape }}" alt="{{ item.data.name | escape }}" class="gallery-image">
-              <script type="application/json" class="w-json">{"items":[{"type":"image","url":"{{ setItem.url }}","caption":""}],"group":"Recent Work Gallery"}</script>
+              <script type="application/json" class="w-json">{"items":[{"type":"image","url":"{{ item.data['gallery-image'].url | escape }}","caption":""}],"group":"Recent Work Gallery"}</script>
             </a>
           </div>{%- endfor -%}
         </div>{%- endif -%}
