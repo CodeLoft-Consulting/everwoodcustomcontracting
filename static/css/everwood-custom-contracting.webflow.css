@@ -279,8 +279,8 @@ a {
   border-color: #164059;
   border-radius: 10px;
   background-color: #164059;
-  -webkit-transition: all 200ms ease-in-out;
-  transition: all 200ms ease-in-out;
+  -webkit-transition: border-radius 200ms ease, border 200ms ease, opacity 200ms ease, background-color 200ms ease-in-out;
+  transition: border-radius 200ms ease, border 200ms ease, opacity 200ms ease, background-color 200ms ease-in-out;
   color: #fff;
   font-size: 15px;
   letter-spacing: 0.8px;
