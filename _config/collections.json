@@ -1,0 +1,17 @@
+{
+  "c_5bf0f58d0611cd7ceeda4c516d9cc34e": {
+    "collection": "photo"
+  },
+  "c_50737400dcc72f1c2fba9556c7a7ab3f": {
+    "collection": "photo",
+    "query": {
+      "fields": [
+        {
+          "fieldPath": "tags",
+          "operatorName": "idin",
+          "value": "photo-tags/flushmount-vents.md"
+        }
+      ]
+    }
+  }
+}

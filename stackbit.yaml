@@ -1,0 +1,19 @@
+stackbitVersion: "~0.3.0"
+ssgName: "custom"
+buildCommand: "npx @11ty/eleventy"
+publishDir: "public"
+staticDir: "static"
+uploadDir: "images"
+pagesDir: "site"
+metadata:
+  title: "everwood custom contracting "
+  description: "Theme created in Webflow and converted with Udesly"
+models:
+  photo:
+    type: "page"
+    label: "Photos"
+    urlPath: "/photo/{slug}"
+  photo_tags:
+    type: "page"
+    label: "Photo Tags"
+    urlPath: "/photo-tags/{slug}"
