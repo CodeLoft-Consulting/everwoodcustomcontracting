@@ -93,14 +93,14 @@
           {%- for item in collection -%}<div role="listitem" class="w-dyn-item">
             <a href="#" class="w-inline-block w-lightbox"><img loading="lazy" src="{{ item.data['gallery-image'].url | escape }}" alt="{{ item.data.name | escape }}" class="gallery-image">
               <script type="application/json" class="w-json">
-                &#123;
-                  "items":[	&#123;
+                {
+                  "items":[{
                     "type": "image",
                     "url": "{{ setItem.url }}",
                     "caption": ""
-                    &#125;],
+                  }],
                   "group": "Recent Work Gallery"
-                &#125;
+                }
               </script>
             </a>
           </div>{%- endfor -%}
