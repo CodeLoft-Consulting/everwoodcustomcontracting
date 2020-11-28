@@ -53,6 +53,10 @@ a {
   text-decoration: underline;
 }
 
+nav.w-container {
+  height: 80px;
+}
+
 .nav-bar {
   z-index: 1;
   padding: 20px 0px 0px;
@@ -1237,3 +1241,4 @@ a {
 }
 
 html{visibility: visible;opacity:1;}
+
