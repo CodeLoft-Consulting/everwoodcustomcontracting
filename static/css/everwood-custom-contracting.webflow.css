@@ -332,10 +332,13 @@ nav.w-container {
 }
 
 .button.social {
-	margin-right: 7px;
-	padding-right: 17px;
-	padding-left: 17px;
-	background-color: transparent;
+  position: relative;
+  width: 44px;
+  height: 42px;
+  margin-right: 7px;
+  padding: 0px;
+  background-color: transparent;
+  text-align: center;
 }
 
 .button.transparent {
@@ -364,7 +367,7 @@ nav.w-container {
   }
   
   .slide.slide-1 {
-	background-image: url('../images/IMG_1810_EDIT.jpg');
+	background-image: url('../images/IMG_1809bright.jpg');
 	background-position: 50% 0%;
 	background-size: cover;
 	background-attachment: fixed;
@@ -952,6 +955,14 @@ nav.w-container {
 	text-align: left;
 }
 
+.social-image {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
 @media screen and (max-width: 991px) {
 	h1 {
 		font-size: 30px;
@@ -967,9 +978,6 @@ nav.w-container {
 		height: 700px;
 	}
 
-	.slide.slide-1 {
-		background-size: auto;
-	}
 
 	.slider-quote {
 		top: 60px;
@@ -980,6 +988,9 @@ nav.w-container {
 		font-size: 30px;
 		line-height: 40px;
 	}
+	.hide-on-tablet {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1016,9 +1027,6 @@ nav.w-container {
 		display: none;
 	}
 
-	.slide.slide-1 {
-		background-size: auto;
-	}
 
 	.grid {
 		-ms-grid-columns: 1fr 1fr;
