@@ -1,0 +1,103 @@
+<header id="nav" class="nav-bar">
+	<nav class="w-container">
+		<div class="heading-logo">
+			<div class="header-bar">
+				<a href="/" class="nav-logo-link w-inline-block"
+					><img
+						src="/static/images/everwoodcclogo.gif"
+						alt="Everwood Custom Contracting"
+						class="nav-logo"
+					/>
+					<h2 class="logo-heading">
+						<span class="logo-heading-large">Everwood</span><br />Custom Contracting
+					</h2>
+				</a>
+				<div class="header-right">
+					<div class="text-block">
+						<a href="tel:+15192161578" class="phone-link"
+							><span class="hide-on-tablet">Phone Number:</span> 519-216-1578</a
+						>
+					</div>
+					<a href="https://www.instagram.com/everwoodcc/" class="button social w-inline-block"
+						><img
+							src="/static/images/instagramIcon.svg"
+							loading="lazy"
+							width="25"
+							height="25"
+							alt=""
+							class="social-image"
+					/></a>
+					<a
+						href="https://www.facebook.com/everwoodcustomcontracting/"
+						class="button social w-inline-block"
+						><img
+							src="/static/images/facebook.svg"
+							loading="lazy"
+							width="8"
+							height="16"
+							alt="Facebook"
+							class="social-image"
+					/></a>
+					<a href="/contact/" class="button nav-button w-button">Get In Touch</a>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<div class="nav-menu-bar">
+		<div class="w-container">
+			<ul role="list" class="nav-grid w-list-unstyled">
+				<li>
+					<a href="/" {% if page.url == post.url %}aria-current="page"{% endif %} class="nav-link {% if page.url == post.url %}w--current{% endif %}">Home</a>
+				</li>
+				<li>
+					<div data-hover="1" data-delay="0" class="w-dropdown">
+						<div class="dropdown-toggle w-dropdown-toggle">
+							<a href="/about/" {% if page.url == post.url %}aria-current="page"{% endif %} class="nav-link w-inline-block {% if page.url == post.url %}w--current{% endif %}">
+								<div>About</div>
+							</a>
+						</div>
+						<nav class="dropdown-list w-dropdown-list">
+							<a href="/gallery/" {% if page.url == post.url %}aria-current="page"{% endif %} class="nav-link {% if page.url == post.url %}w--current{% endif %} in-dropdown w-dropdown-link">Gallery</a>
+							<a href="/testimonials/" {% if page.url == post.url %}aria-current="page"{% endif %} class="nav-link {% if page.url == post.url %}w--current{% endif %} in-dropdown w-dropdown-link">Testimonials</a>
+						</nav>
+					</div>
+				</li>
+				<li>
+					<div data-hover="1" data-delay="0" class="w-dropdown">
+						<div class="dropdown-toggle w-dropdown-toggle">
+							<a href="/services/" {% if page.url == post.url %}aria-current="page"{% endif %} class="nav-link {% if page.url == post.url %}w--current{% endif %} w-inline-block">
+								<div>Services</div>
+							</a>
+						</div>
+						<nav class="w-dropdown-list">
+							<a href="/patterned-flooring/" {% if page.url == post.url %}aria-current="page"{% endif %} class="nav-link {% if page.url == post.url %}w--current{% endif %} in-dropdown w-dropdown-link"
+								>Patterned Flooring</a
+							>
+							<a href="/staircases-and-recaps/" {% if page.url == post.url %}aria-current="page"{% endif %} class="nav-link {% if page.url == post.url %}w--current{% endif %} in-dropdown w-dropdown-link"
+								>Staircases and Recaps</a
+							>
+							<a href="/reclaimed-flooring/" {% if page.url == post.url %}aria-current="page"{% endif %} class="nav-link {% if page.url == post.url %}w--current{% endif %} in-dropdown w-dropdown-link"
+								>Reclaimed Hardwood</a
+							>
+							<a href="/flushmount-vents/" {% if page.url == post.url %}aria-current="page"{% endif %} class="nav-link {% if page.url == post.url %}w--current{% endif %} in-dropdown w-dropdown-link"
+								>Flushmount Vents</a
+							>
+							<a href="/custom-finishes/" {% if page.url == post.url %}aria-current="page"{% endif %} class="nav-link {% if page.url == post.url %}w--current{% endif %} in-dropdown w-dropdown-link"
+								>Custom Finishes</a
+							>
+							<a href="/services/" {% if page.url == post.url %}aria-current="page"{% endif %} class="nav-link {% if page.url == post.url %}w--current{% endif %} in-dropdown w-dropdown-link"
+								>Professional Installation</a
+							>
+						</nav>
+					</div>
+				</li>
+				<li>
+					<a href="/faq/" {% if page.url == post.url %}aria-current="page"{% endif %} class="nav-link {% if page.url == post.url %}w--current{% endif %}">FAQ</a>
+				</li>
+				<li>
+					<a href="/services/" {% if page.url == post.url %}aria-current="page"{% endif %} class="nav-link {% if page.url == post.url %}w--current{% endif %}">View Services</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</header>

@@ -3,69 +3,7 @@
   {% include head.html %}
 {%- seo seo -%}</head>
 <body>
-  <header id="nav" class="nav-bar">
-    <nav class="w-container">
-      <div class="heading-logo">
-        <div class="header-bar">
-          <a href="/" class="nav-logo-link w-inline-block"><img src="/static/images/everwoodcclogo.gif" alt="Everwood Custom Contracting" class="nav-logo">
-            <h2 class="logo-heading"><span class="logo-heading-large">Everwood</span><br>Custom Contracting</h2>
-          </a>
-          <div class="header-right">
-            <div class="text-block">
-              <a href="tel:+15192161578" class="phone-link">Phone Number: 519-216-1578</a>
-            </div>
-            <a href="https://www.facebook.com/everwoodcustomcontracting/" class="button social w-inline-block"><img src="/static/images/facebook.svg" loading="lazy" width="8" height="16" alt="Facebook"></a>
-            <a href="/contact/" class="button w-button">Get In Touch</a>
-          </div>
-        </div>
-      </div>
-    </nav>
-    <div class="nav-menu-bar">
-      <div class="w-container">
-        <ul role="list" class="nav-grid w-list-unstyled">
-          <li>
-            <a href="/" class="nav-link">Home</a>
-          </li>
-          <li>
-            <div data-hover="1" data-delay="0" class="w-dropdown">
-              <div class="dropdown-toggle w-dropdown-toggle">
-                <a href="/about/" class="nav-link w-inline-block">
-                  <div>About</div>
-                </a>
-              </div>
-              <nav class="dropdown-list w-dropdown-list">
-                <a href="/gallery/" class="nav-link in-dropdown w-dropdown-link">Gallery</a>
-                <a href="/testimonials/" class="nav-link in-dropdown w-dropdown-link">Testimonials</a>
-              </nav>
-            </div>
-          </li>
-          <li>
-            <div data-hover="1" data-delay="0" class="w-dropdown">
-              <div class="dropdown-toggle w-dropdown-toggle">
-                <a href="/services/" class="nav-link w-inline-block">
-                  <div>Services</div>
-                </a>
-              </div>
-              <nav class="w-dropdown-list">
-                <a href="/patterned-flooring/" class="nav-link in-dropdown w-dropdown-link">Patterned Flooring</a>
-                <a href="/staircases-and-recaps/" class="nav-link in-dropdown w-dropdown-link">Staircases and Recaps</a>
-                <a href="/reclaimed-flooring/" aria-current="page" class="nav-link in-dropdown w-dropdown-link w--current">Reclaimed Hardwood</a>
-                <a href="/flushmount-vents/" class="nav-link in-dropdown w-dropdown-link">Flushmount Vents</a>
-                <a href="/custom-finishes/" class="nav-link in-dropdown w-dropdown-link">Custom Finishes</a>
-                <a href="/services/" class="nav-link in-dropdown w-dropdown-link">Professional Installation</a>
-              </nav>
-            </div>
-          </li>
-          <li>
-            <a href="/faq/" class="nav-link">FAQ</a>
-          </li>
-          <li>
-            <a href="/contact/" class="nav-link">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </header>
+  {% include header.html %}
   <section>
     <div class="w-container"><img src="/static/images/hardwood-header.jpg" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px" srcset="/static/images/hardwood-header-p-500.jpeg 500w, /static/images/hardwood-header-p-1080.jpeg 1080w, /static/images/hardwood-header.jpg 1920w" alt="" class="page-image"></div>
   </section>
