@@ -804,6 +804,14 @@ nav.w-container {
 	padding: 0px;
 }
 
+.nav-dropdown-arrow {
+	color: white;
+	height: 50px;
+	width: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
 .flooring-showcase-grid {
 	margin-bottom: 40px;
 	-ms-grid-columns: 0.5fr 1fr;
@@ -1156,6 +1164,13 @@ nav.w-container {
 
 	.nav-link.w--current {
 		border-top-width: 0px;
+	}
+
+	.nav-dropdown-arrow {
+		height: 40px;
+		width: 36px;
+		padding-left: 8px;
+		padding-right: 8px;
 	}
 
 	.footer {
