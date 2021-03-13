@@ -1,16 +1,17 @@
 ---
 gallery-image:
-  url: "https://uploads-ssl.webflow.com/5fad677063fbc94ac6c53f49/5fad69e515ab1c7e408bbd77_10.jpg"
-  alt: ""
+  url: /static/images/gallery_10.jpg
+  alt: Staircase
 _archived: false
 _draft: false
-created-on: "2020-11-12T16:59:19.143Z"
-name: "Image 10"
-slug: "image-10"
-updated-on: "2020-11-12T16:59:19.143Z"
-published-on: "2020-11-12T17:01:10.736Z"
-tags: "photo"
-layout: "single-photo.html"
+tags: photo
+date: 2021-03-13T19:55:25.841Z
+layout: single-photo.html
+name: Image 10
+created-on: 2020-11-12T16:59:19.143Z
+slug: image-10
+tag:
+  - site/undefined/staircases-and-recaps.md
+updated-on: 2020-11-12T16:59:19.143Z
+published-on: 2020-11-12T17:01:10.736Z
 ---
-
-
