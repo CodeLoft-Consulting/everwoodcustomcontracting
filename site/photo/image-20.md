@@ -1,16 +1,15 @@
 ---
 gallery-image:
-  url: "https://uploads-ssl.webflow.com/5fad677063fbc94ac6c53f49/5fad986d8a06879510f71d49_stairtop.jpg"
-  alt: ""
+  url: /static/images/gallery_20-burleigh-4.jpg
+  alt: Bedroom
 _archived: false
 _draft: false
-created-on: "2020-11-12T20:17:52.552Z"
-name: "Image 20"
-slug: "image-20"
-updated-on: "2020-11-12T20:17:52.552Z"
-published-on: "2020-11-12T20:18:15.629Z"
-tags: "photo"
-layout: "single-photo.html"
+tags: photo
+date: 2021-03-13T19:52:25.743Z
+layout: single-photo.html
+name: Image 20
+created-on: 2020-11-12T20:17:52.552Z
+slug: image-20
+updated-on: 2020-11-12T20:17:52.552Z
+published-on: 2020-11-12T20:18:15.629Z
 ---
-
-
