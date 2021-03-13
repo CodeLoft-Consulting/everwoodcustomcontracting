@@ -1,16 +1,15 @@
 ---
 gallery-image:
-  url: "https://uploads-ssl.webflow.com/5fad677063fbc94ac6c53f49/5fad678f02aaaae2340c3c14_2%20Burleigh.jpg"
-  alt: ""
+  url: /static/images/gallery_24-burleigh-1.jpg
+  alt: Burleigh
 _archived: false
 _draft: false
-created-on: "2020-11-12T16:49:22.527Z"
-name: "Image 2"
-slug: "image-2"
-updated-on: "2020-11-12T16:49:22.527Z"
-published-on: "2020-11-12T16:57:21.224Z"
-tags: "photo"
-layout: "single-photo.html"
+tags: photo
+date: 2021-03-13T19:46:49.248Z
+layout: single-photo.html
+name: Image 2
+created-on: 2020-11-12T16:49:22.527Z
+slug: image-2
+updated-on: 2020-11-12T16:49:22.527Z
+published-on: 2020-11-12T16:57:21.224Z
 ---
-
-
