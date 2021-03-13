@@ -1,7 +1,7 @@
 ---
 gallery-image:
-  url: /static/images/gallery_24-burleigh-1.jpg
-  alt: Living Room
+  url: /static/images/gallery_8.jpg
+  alt: Dining room
 _archived: false
 _draft: false
 tags: photo
