@@ -1,7 +1,7 @@
 ---
 gallery-image:
-  url: /static/images/gallery_24-burleigh-1.jpg
-  alt: Burleigh
+  url: /static/images/gallery_2.jpg
+  alt: Flooring
 _archived: false
 _draft: false
 tags: photo
