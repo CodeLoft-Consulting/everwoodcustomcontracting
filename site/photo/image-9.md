@@ -1,7 +1,7 @@
 ---
 gallery-image:
-  url: /static/images/gallery_25-staircase.jpg
-  alt: Staircase
+  url: /static/images/gallery_9.jpg
+  alt: Living room
 _archived: false
 _draft: false
 tags: photo
